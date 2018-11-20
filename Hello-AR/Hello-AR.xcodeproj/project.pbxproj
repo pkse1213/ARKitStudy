@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CBE7A81821A44C3400FD563A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE7A81721A44C3400FD563A /* AppDelegate.swift */; };
-		CBE7A81A21A44C3400FD563A /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = CBE7A81921A44C3400FD563A /* art.scnassets */; };
-		CBE7A81C21A44C3400FD563A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE7A81B21A44C3400FD563A /* ViewController.swift */; };
-		CBE7A81F21A44C3400FD563A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBE7A81D21A44C3400FD563A /* Main.storyboard */; };
-		CBE7A82121A44C3500FD563A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBE7A82021A44C3500FD563A /* Assets.xcassets */; };
-		CBE7A82421A44C3500FD563A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBE7A82221A44C3500FD563A /* LaunchScreen.storyboard */; };
+		CBE7A83821A4749100FD563A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE7A83721A4749100FD563A /* AppDelegate.swift */; };
+		CBE7A83A21A4749100FD563A /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = CBE7A83921A4749100FD563A /* art.scnassets */; };
+		CBE7A83C21A4749100FD563A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE7A83B21A4749100FD563A /* ViewController.swift */; };
+		CBE7A83F21A4749100FD563A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBE7A83D21A4749100FD563A /* Main.storyboard */; };
+		CBE7A84121A4749200FD563A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBE7A84021A4749200FD563A /* Assets.xcassets */; };
+		CBE7A84421A4749200FD563A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBE7A84221A4749200FD563A /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CBE7A81421A44C3400FD563A /* ARKitStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKitStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CBE7A81721A44C3400FD563A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CBE7A81921A44C3400FD563A /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		CBE7A81B21A44C3400FD563A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CBE7A81E21A44C3400FD563A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CBE7A82021A44C3500FD563A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CBE7A82321A44C3500FD563A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CBE7A82521A44C3500FD563A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBE7A83421A4749100FD563A /* Hello-AR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hello-AR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBE7A83721A4749100FD563A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CBE7A83921A4749100FD563A /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		CBE7A83B21A4749100FD563A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CBE7A83E21A4749100FD563A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBE7A84021A4749200FD563A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBE7A84321A4749200FD563A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CBE7A84521A4749200FD563A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CBE7A81121A44C3400FD563A /* Frameworks */ = {
+		CBE7A83121A4749100FD563A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,72 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CBE7A80B21A44C3400FD563A = {
+		CBE7A82B21A4749100FD563A = {
 			isa = PBXGroup;
 			children = (
-				CBE7A81621A44C3400FD563A /* ARKitStudy */,
-				CBE7A81521A44C3400FD563A /* Products */,
+				CBE7A83621A4749100FD563A /* Hello-AR */,
+				CBE7A83521A4749100FD563A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CBE7A81521A44C3400FD563A /* Products */ = {
+		CBE7A83521A4749100FD563A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CBE7A81421A44C3400FD563A /* ARKitStudy.app */,
+				CBE7A83421A4749100FD563A /* Hello-AR.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CBE7A81621A44C3400FD563A /* ARKitStudy */ = {
+		CBE7A83621A4749100FD563A /* Hello-AR */ = {
 			isa = PBXGroup;
 			children = (
-				CBE7A81721A44C3400FD563A /* AppDelegate.swift */,
-				CBE7A81921A44C3400FD563A /* art.scnassets */,
-				CBE7A81B21A44C3400FD563A /* ViewController.swift */,
-				CBE7A81D21A44C3400FD563A /* Main.storyboard */,
-				CBE7A82021A44C3500FD563A /* Assets.xcassets */,
-				CBE7A82221A44C3500FD563A /* LaunchScreen.storyboard */,
-				CBE7A82521A44C3500FD563A /* Info.plist */,
+				CBE7A83721A4749100FD563A /* AppDelegate.swift */,
+				CBE7A83921A4749100FD563A /* art.scnassets */,
+				CBE7A83B21A4749100FD563A /* ViewController.swift */,
+				CBE7A83D21A4749100FD563A /* Main.storyboard */,
+				CBE7A84021A4749200FD563A /* Assets.xcassets */,
+				CBE7A84221A4749200FD563A /* LaunchScreen.storyboard */,
+				CBE7A84521A4749200FD563A /* Info.plist */,
 			);
-			path = ARKitStudy;
+			path = "Hello-AR";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CBE7A81321A44C3400FD563A /* ARKitStudy */ = {
+		CBE7A83321A4749100FD563A /* Hello-AR */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CBE7A82821A44C3500FD563A /* Build configuration list for PBXNativeTarget "ARKitStudy" */;
+			buildConfigurationList = CBE7A84821A4749200FD563A /* Build configuration list for PBXNativeTarget "Hello-AR" */;
 			buildPhases = (
-				CBE7A81021A44C3400FD563A /* Sources */,
-				CBE7A81121A44C3400FD563A /* Frameworks */,
-				CBE7A81221A44C3400FD563A /* Resources */,
+				CBE7A83021A4749100FD563A /* Sources */,
+				CBE7A83121A4749100FD563A /* Frameworks */,
+				CBE7A83221A4749100FD563A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ARKitStudy;
-			productName = ARKitStudy;
-			productReference = CBE7A81421A44C3400FD563A /* ARKitStudy.app */;
+			name = "Hello-AR";
+			productName = "Hello-AR";
+			productReference = CBE7A83421A4749100FD563A /* Hello-AR.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CBE7A80C21A44C3400FD563A /* Project object */ = {
+		CBE7A82C21A4749100FD563A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "박세은";
 				TargetAttributes = {
-					CBE7A81321A44C3400FD563A = {
+					CBE7A83321A4749100FD563A = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
-			buildConfigurationList = CBE7A80F21A44C3400FD563A /* Build configuration list for PBXProject "ARKitStudy" */;
+			buildConfigurationList = CBE7A82F21A4749100FD563A /* Build configuration list for PBXProject "Hello-AR" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = CBE7A80B21A44C3400FD563A;
-			productRefGroup = CBE7A81521A44C3400FD563A /* Products */;
+			mainGroup = CBE7A82B21A4749100FD563A;
+			productRefGroup = CBE7A83521A4749100FD563A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CBE7A81321A44C3400FD563A /* ARKitStudy */,
+				CBE7A83321A4749100FD563A /* Hello-AR */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CBE7A81221A44C3400FD563A /* Resources */ = {
+		CBE7A83221A4749100FD563A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBE7A81A21A44C3400FD563A /* art.scnassets in Resources */,
-				CBE7A82421A44C3500FD563A /* LaunchScreen.storyboard in Resources */,
-				CBE7A82121A44C3500FD563A /* Assets.xcassets in Resources */,
-				CBE7A81F21A44C3400FD563A /* Main.storyboard in Resources */,
+				CBE7A83A21A4749100FD563A /* art.scnassets in Resources */,
+				CBE7A84421A4749200FD563A /* LaunchScreen.storyboard in Resources */,
+				CBE7A84121A4749200FD563A /* Assets.xcassets in Resources */,
+				CBE7A83F21A4749100FD563A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CBE7A81021A44C3400FD563A /* Sources */ = {
+		CBE7A83021A4749100FD563A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBE7A81C21A44C3400FD563A /* ViewController.swift in Sources */,
-				CBE7A81821A44C3400FD563A /* AppDelegate.swift in Sources */,
+				CBE7A83C21A4749100FD563A /* ViewController.swift in Sources */,
+				CBE7A83821A4749100FD563A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CBE7A81D21A44C3400FD563A /* Main.storyboard */ = {
+		CBE7A83D21A4749100FD563A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CBE7A81E21A44C3400FD563A /* Base */,
+				CBE7A83E21A4749100FD563A /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		CBE7A82221A44C3500FD563A /* LaunchScreen.storyboard */ = {
+		CBE7A84221A4749200FD563A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CBE7A82321A44C3500FD563A /* Base */,
+				CBE7A84321A4749200FD563A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		CBE7A82621A44C3500FD563A /* Debug */ = {
+		CBE7A84621A4749200FD563A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -227,7 +227,7 @@
 			};
 			name = Debug;
 		};
-		CBE7A82721A44C3500FD563A /* Release */ = {
+		CBE7A84721A4749200FD563A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -282,34 +282,34 @@
 			};
 			name = Release;
 		};
-		CBE7A82921A44C3500FD563A /* Debug */ = {
+		CBE7A84921A4749200FD563A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ARKitStudy/Info.plist;
+				INFOPLIST_FILE = "Hello-AR/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = pkse1213.ARKitStudy;
+				PRODUCT_BUNDLE_IDENTIFIER = "pkse1213.Hello-AR";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		CBE7A82A21A44C3500FD563A /* Release */ = {
+		CBE7A84A21A4749200FD563A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ARKitStudy/Info.plist;
+				INFOPLIST_FILE = "Hello-AR/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = pkse1213.ARKitStudy;
+				PRODUCT_BUNDLE_IDENTIFIER = "pkse1213.Hello-AR";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -319,25 +319,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CBE7A80F21A44C3400FD563A /* Build configuration list for PBXProject "ARKitStudy" */ = {
+		CBE7A82F21A4749100FD563A /* Build configuration list for PBXProject "Hello-AR" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CBE7A82621A44C3500FD563A /* Debug */,
-				CBE7A82721A44C3500FD563A /* Release */,
+				CBE7A84621A4749200FD563A /* Debug */,
+				CBE7A84721A4749200FD563A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CBE7A82821A44C3500FD563A /* Build configuration list for PBXNativeTarget "ARKitStudy" */ = {
+		CBE7A84821A4749200FD563A /* Build configuration list for PBXNativeTarget "Hello-AR" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CBE7A82921A44C3500FD563A /* Debug */,
-				CBE7A82A21A44C3500FD563A /* Release */,
+				CBE7A84921A4749200FD563A /* Debug */,
+				CBE7A84A21A4749200FD563A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CBE7A80C21A44C3400FD563A /* Project object */;
+	rootObject = CBE7A82C21A4749100FD563A /* Project object */;
 }

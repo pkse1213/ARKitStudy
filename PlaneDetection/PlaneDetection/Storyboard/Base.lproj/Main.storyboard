@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="B40-3Y-aA4">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -37,11 +37,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="161" y="134"/>
         </scene>
-        <!--Overlaying Plane View Controller-->
+        <!--Enabling Physics And Collision View Controller-->
         <scene sceneID="HG9-Zv-yJP">
             <objects>
-                <viewController id="kgw-ZV-aRn" customClass="OverlayingPlaneViewController" customModule="PlaneDetection" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="kgw-ZV-aRn" customClass="EnablingPhysicsAndCollisionViewController" customModule="PlaneDetection" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dfh-kb-mar">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -66,64 +67,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="B9X-Rg-SPM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="785" y="134"/>
-        </scene>
-        <!--Placing Virtual Objects On Plane View Controller-->
-        <scene sceneID="oiZ-Lg-U0o">
-            <objects>
-                <viewController id="kXx-Xx-ad5" customClass="PlacingVirtualObjectsOnPlaneViewController" customModule="PlaneDetection" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="2mL-WG-YRK">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AAm-6R-vSs">
-                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
-                            </arscnView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="AAm-6R-vSs" firstAttribute="top" secondItem="tdf-yG-TFL" secondAttribute="top" id="h47-aE-cMw"/>
-                            <constraint firstItem="AAm-6R-vSs" firstAttribute="leading" secondItem="tdf-yG-TFL" secondAttribute="leading" id="n5U-ko-ppb"/>
-                            <constraint firstItem="tdf-yG-TFL" firstAttribute="bottom" secondItem="AAm-6R-vSs" secondAttribute="bottom" id="s5F-lf-zWA"/>
-                            <constraint firstItem="tdf-yG-TFL" firstAttribute="trailing" secondItem="AAm-6R-vSs" secondAttribute="trailing" id="trN-MF-m6i"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="tdf-yG-TFL"/>
-                    </view>
-                    <connections>
-                        <outlet property="sceneView" destination="AAm-6R-vSs" id="Tlp-E4-GDX"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="P2H-nb-E78" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1433" y="134"/>
-        </scene>
-        <!--Enabling Physics View Controller-->
-        <scene sceneID="wMX-7t-dKt">
-            <objects>
-                <viewController id="B40-3Y-aA4" customClass="EnablingPhysicsViewController" customModule="PlaneDetection" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="rTZ-Pw-5BM">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q2b-o8-FW2">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                            </arscnView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="Q2b-o8-FW2" firstAttribute="top" secondItem="rTZ-Pw-5BM" secondAttribute="top" id="KeE-9O-HCy"/>
-                            <constraint firstItem="qkL-90-KyV" firstAttribute="bottom" secondItem="Q2b-o8-FW2" secondAttribute="bottom" id="ohL-QW-GZo"/>
-                            <constraint firstItem="qkL-90-KyV" firstAttribute="trailing" secondItem="Q2b-o8-FW2" secondAttribute="trailing" id="pvK-jC-5ct"/>
-                            <constraint firstItem="Q2b-o8-FW2" firstAttribute="leading" secondItem="rTZ-Pw-5BM" secondAttribute="leading" id="u3P-jQ-jDt"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="qkL-90-KyV"/>
-                    </view>
-                    <connections>
-                        <outlet property="sceneView" destination="Q2b-o8-FW2" id="qDG-RL-DHw"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="tiD-Pn-5df" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2089" y="138"/>
         </scene>
     </scenes>
 </document>

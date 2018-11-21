@@ -9,6 +9,7 @@ import Foundation
 import ARKit
 import SceneKit
 
+
 class OverlayPlane: SCNNode {
     
     // ARAnchor는 arkit과 scenekit에 의해 발견되는 하나의 점
@@ -30,7 +31,6 @@ class OverlayPlane: SCNNode {
         self.position = SCNVector3Make(anchor.center.x, 0, anchor.center.z);
         
         let planeNode = self.childNodes.first!
-        
         planeNode.physicsBody = SCNPhysicsBody(type: .static, shape: SCNPhysicsShape(geometry: self.planeGeometry, options: nil))
         
     }
@@ -45,8 +45,11 @@ class OverlayPlane: SCNNode {
         self.planeGeometry.materials = [material]
         
         let planeNode = SCNNode(geometry: self.planeGeometry)
+        
+        // shape: nil일 수 있지만 Plane은 계속해서 커지므로 SCNPhysicsShape(geometry: self.planeGeometry, options: nil)로 해준다
         planeNode.physicsBody = SCNPhysicsBody(type: .static, shape: SCNPhysicsShape(geometry: self.planeGeometry, options: nil))
-//        planeNode.physicsBody?.categoryBitMask = BodyType.plane.rawValue
+        
+        planeNode.categoryBitMask = BoxType.plane.rawValue
         
         planeNode.position = SCNVector3Make(anchor.center.x, 0, anchor.center.z);
         planeNode.transform = SCNMatrix4MakeRotation(Float(-Double.pi / 2.0), 1.0, 0.0, 0.0);

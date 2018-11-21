@@ -17,6 +17,7 @@
 		CBCF5DEF21A5A7B30043D2A5 /* OverlayPlane.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCF5DEE21A5A7B30043D2A5 /* OverlayPlane.swift */; };
 		CBCF5DF121A5A90A0043D2A5 /* overlay_grid.png in Resources */ = {isa = PBXBuildFile; fileRef = CBCF5DF021A5A90A0043D2A5 /* overlay_grid.png */; };
 		CBCF5DF621A5B0830043D2A5 /* PlacingVirtualObjectsOnPlaneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCF5DF521A5B0830043D2A5 /* PlacingVirtualObjectsOnPlaneViewController.swift */; };
+		CBCF5DFC21A5BFB10043D2A5 /* EnablingPhysicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCF5DFB21A5BFB10043D2A5 /* EnablingPhysicsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		CBCF5DEE21A5A7B30043D2A5 /* OverlayPlane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayPlane.swift; sourceTree = "<group>"; };
 		CBCF5DF021A5A90A0043D2A5 /* overlay_grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overlay_grid.png; sourceTree = "<group>"; };
 		CBCF5DF521A5B0830043D2A5 /* PlacingVirtualObjectsOnPlaneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacingVirtualObjectsOnPlaneViewController.swift; sourceTree = "<group>"; };
+		CBCF5DFB21A5BFB10043D2A5 /* EnablingPhysicsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnablingPhysicsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,42 +66,43 @@
 		CBCF5DD521A59FA80043D2A5 /* PlaneDetection */ = {
 			isa = PBXGroup;
 			children = (
-				CBCF5DEA21A5A59F0043D2A5 /* DetectingPlane+Text */,
-				CBCF5DEB21A5A7060043D2A5 /* OverlayingPlances */,
-				CBCF5DD621A59FA80043D2A5 /* AppDelegate.swift */,
-				CBCF5DF421A5B0400043D2A5 /* PlacingVirtualObjectsOnPlane */,
 				CBCF5DF721A5B0900043D2A5 /* Storyboard */,
+				CBCF5DEA21A5A59F0043D2A5 /* 1. DetectingPlane+Text */,
+				CBCF5DEB21A5A7060043D2A5 /* 2. OverlayingPlances */,
+				CBCF5DF421A5B0400043D2A5 /* 3. PlacingVirtualObjectsOnPlane */,
 				CBCF5DDF21A59FA90043D2A5 /* Assets.xcassets */,
+				CBCF5DFA21A5BF8B0043D2A5 /* 4. EnablingPhysics */,
 				CBCF5DD821A59FA80043D2A5 /* art.scnassets */,
+				CBCF5DD621A59FA80043D2A5 /* AppDelegate.swift */,
 				CBCF5DE421A59FA90043D2A5 /* Info.plist */,
 			);
 			path = PlaneDetection;
 			sourceTree = "<group>";
 		};
-		CBCF5DEA21A5A59F0043D2A5 /* DetectingPlane+Text */ = {
+		CBCF5DEA21A5A59F0043D2A5 /* 1. DetectingPlane+Text */ = {
 			isa = PBXGroup;
 			children = (
 				CBCF5DDA21A59FA80043D2A5 /* ViewController.swift */,
 			);
-			path = "DetectingPlane+Text";
+			path = "1. DetectingPlane+Text";
 			sourceTree = "<group>";
 		};
-		CBCF5DEB21A5A7060043D2A5 /* OverlayingPlances */ = {
+		CBCF5DEB21A5A7060043D2A5 /* 2. OverlayingPlances */ = {
 			isa = PBXGroup;
 			children = (
 				CBCF5DF021A5A90A0043D2A5 /* overlay_grid.png */,
 				CBCF5DEC21A5A7A10043D2A5 /* OverlayingPlaneViewController.swift */,
 				CBCF5DEE21A5A7B30043D2A5 /* OverlayPlane.swift */,
 			);
-			path = OverlayingPlances;
+			path = "2. OverlayingPlances";
 			sourceTree = "<group>";
 		};
-		CBCF5DF421A5B0400043D2A5 /* PlacingVirtualObjectsOnPlane */ = {
+		CBCF5DF421A5B0400043D2A5 /* 3. PlacingVirtualObjectsOnPlane */ = {
 			isa = PBXGroup;
 			children = (
 				CBCF5DF521A5B0830043D2A5 /* PlacingVirtualObjectsOnPlaneViewController.swift */,
 			);
-			path = PlacingVirtualObjectsOnPlane;
+			path = "3. PlacingVirtualObjectsOnPlane";
 			sourceTree = "<group>";
 		};
 		CBCF5DF721A5B0900043D2A5 /* Storyboard */ = {
@@ -109,6 +112,14 @@
 				CBCF5DE121A59FA90043D2A5 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		CBCF5DFA21A5BF8B0043D2A5 /* 4. EnablingPhysics */ = {
+			isa = PBXGroup;
+			children = (
+				CBCF5DFB21A5BFB10043D2A5 /* EnablingPhysicsViewController.swift */,
+			);
+			path = "4. EnablingPhysics";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,6 +199,7 @@
 				CBCF5DF621A5B0830043D2A5 /* PlacingVirtualObjectsOnPlaneViewController.swift in Sources */,
 				CBCF5DDB21A59FA80043D2A5 /* ViewController.swift in Sources */,
 				CBCF5DD721A59FA80043D2A5 /* AppDelegate.swift in Sources */,
+				CBCF5DFC21A5BFB10043D2A5 /* EnablingPhysicsViewController.swift in Sources */,
 				CBCF5DEF21A5A7B30043D2A5 /* OverlayPlane.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

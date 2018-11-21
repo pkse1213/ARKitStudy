@@ -7,27 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CB1FF92B21A52AAB00E6C5B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1FF92A21A52AAB00E6C5B1 /* AppDelegate.swift */; };
-		CB1FF92D21A52AAB00E6C5B1 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = CB1FF92C21A52AAB00E6C5B1 /* art.scnassets */; };
-		CB1FF92F21A52AAB00E6C5B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB1FF92E21A52AAB00E6C5B1 /* ViewController.swift */; };
-		CB1FF93221A52AAB00E6C5B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB1FF93021A52AAB00E6C5B1 /* Main.storyboard */; };
-		CB1FF93421A52AAC00E6C5B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB1FF93321A52AAC00E6C5B1 /* Assets.xcassets */; };
-		CB1FF93721A52AAC00E6C5B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB1FF93521A52AAC00E6C5B1 /* LaunchScreen.storyboard */; };
+		CBCF5DD721A59FA80043D2A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCF5DD621A59FA80043D2A5 /* AppDelegate.swift */; };
+		CBCF5DD921A59FA80043D2A5 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = CBCF5DD821A59FA80043D2A5 /* art.scnassets */; };
+		CBCF5DDB21A59FA80043D2A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCF5DDA21A59FA80043D2A5 /* ViewController.swift */; };
+		CBCF5DDE21A59FA80043D2A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBCF5DDC21A59FA80043D2A5 /* Main.storyboard */; };
+		CBCF5DE021A59FA90043D2A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBCF5DDF21A59FA90043D2A5 /* Assets.xcassets */; };
+		CBCF5DE321A59FA90043D2A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBCF5DE121A59FA90043D2A5 /* LaunchScreen.storyboard */; };
+		CBCF5DED21A5A7A10043D2A5 /* OverlayingPlaneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCF5DEC21A5A7A10043D2A5 /* OverlayingPlaneViewController.swift */; };
+		CBCF5DEF21A5A7B30043D2A5 /* OverlayPlane.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCF5DEE21A5A7B30043D2A5 /* OverlayPlane.swift */; };
+		CBCF5DF121A5A90A0043D2A5 /* overlay_grid.png in Resources */ = {isa = PBXBuildFile; fileRef = CBCF5DF021A5A90A0043D2A5 /* overlay_grid.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CB1FF92721A52AAB00E6C5B1 /* DetectingPlane.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DetectingPlane.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB1FF92A21A52AAB00E6C5B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CB1FF92C21A52AAB00E6C5B1 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		CB1FF92E21A52AAB00E6C5B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CB1FF93121A52AAB00E6C5B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CB1FF93321A52AAC00E6C5B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CB1FF93621A52AAC00E6C5B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CB1FF93821A52AAC00E6C5B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBCF5DD321A59FA80043D2A5 /* PlaneDetection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlaneDetection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBCF5DD621A59FA80043D2A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CBCF5DD821A59FA80043D2A5 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		CBCF5DDA21A59FA80043D2A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CBCF5DDD21A59FA80043D2A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBCF5DDF21A59FA90043D2A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBCF5DE221A59FA90043D2A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CBCF5DE421A59FA90043D2A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBCF5DEC21A5A7A10043D2A5 /* OverlayingPlaneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayingPlaneViewController.swift; sourceTree = "<group>"; };
+		CBCF5DEE21A5A7B30043D2A5 /* OverlayPlane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayPlane.swift; sourceTree = "<group>"; };
+		CBCF5DF021A5A90A0043D2A5 /* overlay_grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = overlay_grid.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CB1FF92421A52AAB00E6C5B1 /* Frameworks */ = {
+		CBCF5DD021A59FA80043D2A5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,72 +43,91 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CB1FF91E21A52AAB00E6C5B1 = {
+		CBCF5DCA21A59FA80043D2A5 = {
 			isa = PBXGroup;
 			children = (
-				CB1FF92921A52AAB00E6C5B1 /* DetectingPlane */,
-				CB1FF92821A52AAB00E6C5B1 /* Products */,
+				CBCF5DD521A59FA80043D2A5 /* PlaneDetection */,
+				CBCF5DD421A59FA80043D2A5 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CB1FF92821A52AAB00E6C5B1 /* Products */ = {
+		CBCF5DD421A59FA80043D2A5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CB1FF92721A52AAB00E6C5B1 /* DetectingPlane.app */,
+				CBCF5DD321A59FA80043D2A5 /* PlaneDetection.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CB1FF92921A52AAB00E6C5B1 /* DetectingPlane */ = {
+		CBCF5DD521A59FA80043D2A5 /* PlaneDetection */ = {
 			isa = PBXGroup;
 			children = (
-				CB1FF92A21A52AAB00E6C5B1 /* AppDelegate.swift */,
-				CB1FF92C21A52AAB00E6C5B1 /* art.scnassets */,
-				CB1FF92E21A52AAB00E6C5B1 /* ViewController.swift */,
-				CB1FF93021A52AAB00E6C5B1 /* Main.storyboard */,
-				CB1FF93321A52AAC00E6C5B1 /* Assets.xcassets */,
-				CB1FF93521A52AAC00E6C5B1 /* LaunchScreen.storyboard */,
-				CB1FF93821A52AAC00E6C5B1 /* Info.plist */,
+				CBCF5DEB21A5A7060043D2A5 /* OverlayingPlances */,
+				CBCF5DEA21A5A59F0043D2A5 /* DetectingPlane+Text */,
+				CBCF5DD621A59FA80043D2A5 /* AppDelegate.swift */,
+				CBCF5DD821A59FA80043D2A5 /* art.scnassets */,
+				CBCF5DDC21A59FA80043D2A5 /* Main.storyboard */,
+				CBCF5DDF21A59FA90043D2A5 /* Assets.xcassets */,
+				CBCF5DE121A59FA90043D2A5 /* LaunchScreen.storyboard */,
+				CBCF5DE421A59FA90043D2A5 /* Info.plist */,
 			);
-			path = DetectingPlane;
+			path = PlaneDetection;
+			sourceTree = "<group>";
+		};
+		CBCF5DEA21A5A59F0043D2A5 /* DetectingPlane+Text */ = {
+			isa = PBXGroup;
+			children = (
+				CBCF5DDA21A59FA80043D2A5 /* ViewController.swift */,
+			);
+			path = "DetectingPlane+Text";
+			sourceTree = "<group>";
+		};
+		CBCF5DEB21A5A7060043D2A5 /* OverlayingPlances */ = {
+			isa = PBXGroup;
+			children = (
+				CBCF5DF021A5A90A0043D2A5 /* overlay_grid.png */,
+				CBCF5DEC21A5A7A10043D2A5 /* OverlayingPlaneViewController.swift */,
+				CBCF5DEE21A5A7B30043D2A5 /* OverlayPlane.swift */,
+			);
+			path = OverlayingPlances;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CB1FF92621A52AAB00E6C5B1 /* DetectingPlane */ = {
+		CBCF5DD221A59FA80043D2A5 /* PlaneDetection */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CB1FF93B21A52AAC00E6C5B1 /* Build configuration list for PBXNativeTarget "DetectingPlane" */;
+			buildConfigurationList = CBCF5DE721A59FA90043D2A5 /* Build configuration list for PBXNativeTarget "PlaneDetection" */;
 			buildPhases = (
-				CB1FF92321A52AAB00E6C5B1 /* Sources */,
-				CB1FF92421A52AAB00E6C5B1 /* Frameworks */,
-				CB1FF92521A52AAB00E6C5B1 /* Resources */,
+				CBCF5DCF21A59FA80043D2A5 /* Sources */,
+				CBCF5DD021A59FA80043D2A5 /* Frameworks */,
+				CBCF5DD121A59FA80043D2A5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = DetectingPlane;
-			productName = DetectingPlane;
-			productReference = CB1FF92721A52AAB00E6C5B1 /* DetectingPlane.app */;
+			name = PlaneDetection;
+			productName = PlaneDetection;
+			productReference = CBCF5DD321A59FA80043D2A5 /* PlaneDetection.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CB1FF91F21A52AAB00E6C5B1 /* Project object */ = {
+		CBCF5DCB21A59FA80043D2A5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "박세은";
 				TargetAttributes = {
-					CB1FF92621A52AAB00E6C5B1 = {
+					CBCF5DD221A59FA80043D2A5 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
 			};
-			buildConfigurationList = CB1FF92221A52AAB00E6C5B1 /* Build configuration list for PBXProject "DetectingPlane" */;
+			buildConfigurationList = CBCF5DCE21A59FA80043D2A5 /* Build configuration list for PBXProject "PlaneDetection" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +135,58 @@
 				en,
 				Base,
 			);
-			mainGroup = CB1FF91E21A52AAB00E6C5B1;
-			productRefGroup = CB1FF92821A52AAB00E6C5B1 /* Products */;
+			mainGroup = CBCF5DCA21A59FA80043D2A5;
+			productRefGroup = CBCF5DD421A59FA80043D2A5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CB1FF92621A52AAB00E6C5B1 /* DetectingPlane */,
+				CBCF5DD221A59FA80043D2A5 /* PlaneDetection */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CB1FF92521A52AAB00E6C5B1 /* Resources */ = {
+		CBCF5DD121A59FA80043D2A5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB1FF92D21A52AAB00E6C5B1 /* art.scnassets in Resources */,
-				CB1FF93721A52AAC00E6C5B1 /* LaunchScreen.storyboard in Resources */,
-				CB1FF93421A52AAC00E6C5B1 /* Assets.xcassets in Resources */,
-				CB1FF93221A52AAB00E6C5B1 /* Main.storyboard in Resources */,
+				CBCF5DD921A59FA80043D2A5 /* art.scnassets in Resources */,
+				CBCF5DF121A5A90A0043D2A5 /* overlay_grid.png in Resources */,
+				CBCF5DE321A59FA90043D2A5 /* LaunchScreen.storyboard in Resources */,
+				CBCF5DE021A59FA90043D2A5 /* Assets.xcassets in Resources */,
+				CBCF5DDE21A59FA80043D2A5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CB1FF92321A52AAB00E6C5B1 /* Sources */ = {
+		CBCF5DCF21A59FA80043D2A5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB1FF92F21A52AAB00E6C5B1 /* ViewController.swift in Sources */,
-				CB1FF92B21A52AAB00E6C5B1 /* AppDelegate.swift in Sources */,
+				CBCF5DED21A5A7A10043D2A5 /* OverlayingPlaneViewController.swift in Sources */,
+				CBCF5DDB21A59FA80043D2A5 /* ViewController.swift in Sources */,
+				CBCF5DD721A59FA80043D2A5 /* AppDelegate.swift in Sources */,
+				CBCF5DEF21A5A7B30043D2A5 /* OverlayPlane.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CB1FF93021A52AAB00E6C5B1 /* Main.storyboard */ = {
+		CBCF5DDC21A59FA80043D2A5 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CB1FF93121A52AAB00E6C5B1 /* Base */,
+				CBCF5DDD21A59FA80043D2A5 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		CB1FF93521A52AAC00E6C5B1 /* LaunchScreen.storyboard */ = {
+		CBCF5DE121A59FA90043D2A5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CB1FF93621A52AAC00E6C5B1 /* Base */,
+				CBCF5DE221A59FA90043D2A5 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +194,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		CB1FF93921A52AAC00E6C5B1 /* Debug */ = {
+		CBCF5DE521A59FA90043D2A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -227,7 +255,7 @@
 			};
 			name = Debug;
 		};
-		CB1FF93A21A52AAC00E6C5B1 /* Release */ = {
+		CBCF5DE621A59FA90043D2A5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -282,34 +310,36 @@
 			};
 			name = Release;
 		};
-		CB1FF93C21A52AAC00E6C5B1 /* Debug */ = {
+		CBCF5DE821A59FA90043D2A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = DetectingPlane/Info.plist;
+				DEVELOPMENT_TEAM = N6JH7RBUA4;
+				INFOPLIST_FILE = PlaneDetection/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = pkse1213.DetectingPlane;
+				PRODUCT_BUNDLE_IDENTIFIER = pkse1213.PlaneDetection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		CB1FF93D21A52AAC00E6C5B1 /* Release */ = {
+		CBCF5DE921A59FA90043D2A5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = DetectingPlane/Info.plist;
+				DEVELOPMENT_TEAM = N6JH7RBUA4;
+				INFOPLIST_FILE = PlaneDetection/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = pkse1213.DetectingPlane;
+				PRODUCT_BUNDLE_IDENTIFIER = pkse1213.PlaneDetection;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -319,25 +349,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CB1FF92221A52AAB00E6C5B1 /* Build configuration list for PBXProject "DetectingPlane" */ = {
+		CBCF5DCE21A59FA80043D2A5 /* Build configuration list for PBXProject "PlaneDetection" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CB1FF93921A52AAC00E6C5B1 /* Debug */,
-				CB1FF93A21A52AAC00E6C5B1 /* Release */,
+				CBCF5DE521A59FA90043D2A5 /* Debug */,
+				CBCF5DE621A59FA90043D2A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CB1FF93B21A52AAC00E6C5B1 /* Build configuration list for PBXNativeTarget "DetectingPlane" */ = {
+		CBCF5DE721A59FA90043D2A5 /* Build configuration list for PBXNativeTarget "PlaneDetection" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CB1FF93C21A52AAC00E6C5B1 /* Debug */,
-				CB1FF93D21A52AAC00E6C5B1 /* Release */,
+				CBCF5DE821A59FA90043D2A5 /* Debug */,
+				CBCF5DE921A59FA90043D2A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CB1FF91F21A52AAB00E6C5B1 /* Project object */;
+	rootObject = CBCF5DCB21A59FA80043D2A5 /* Project object */;
 }

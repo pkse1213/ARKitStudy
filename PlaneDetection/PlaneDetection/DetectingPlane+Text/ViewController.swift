@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  DetectingPlane
+//  PlaneDetection
 //
 //  Created by 박세은 on 2018. 11. 21..
 //  Copyright © 2018년 박세은. All rights reserved.
@@ -18,14 +18,14 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.label.frame = CGRect(x: 0, y: 0,
-                                  width: self.sceneView.frame.size.width,
-                                  height: 44)
+        self.label.frame = CGRect(x: 0, y: 0, width: self.sceneView.frame.size.width, height: 44)
         self.label.center = self.sceneView.center
         self.label.textAlignment = .center
         self.label.textColor = UIColor.white
         self.label.font = UIFont.preferredFont(forTextStyle: .headline)
         self.label.alpha = 0
+        
+        self.sceneView.addSubview(self.label)
         
         sceneView.delegate = self
         sceneView.showsStatistics = true
@@ -40,7 +40,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         super.viewWillAppear(animated)
         
         let configuration = ARWorldTrackingConfiguration()
-
+        
         // 평면을 탐색하려면 !!
         configuration.planeDetection = .horizontal
         
@@ -67,30 +67,30 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         sceneView.session.pause()
     }
-
+    
     // MARK: - ARSCNViewDelegate
     
-/*
-    // Override to create and configure nodes for anchors added to the view's session.
-    func renderer(_ renderer: SCNSceneRenderer, nodeFor anchor: ARAnchor) -> SCNNode? {
-        let node = SCNNode()
+    /*
+     // Override to create and configure nodes for anchors added to the view's session.
+     func renderer(_ renderer: SCNSceneRenderer, nodeFor anchor: ARAnchor) -> SCNNode? {
+     let node = SCNNode()
      
-        return node
-    }
-*/
+     return node
+     }
+     */
     
-    func session(_ session: ARSession, didFailWithError error: Error) {
-        // Present an error message to the user
-        
-    }
-    
-    func sessionWasInterrupted(_ session: ARSession) {
-        // Inform the user that the session has been interrupted, for example, by presenting an overlay
-        
-    }
-    
-    func sessionInterruptionEnded(_ session: ARSession) {
-        // Reset tracking and/or remove existing anchors if consistent tracking is required
-        
-    }
+    //    func session(_ session: ARSession, didFailWithError error: Error) {
+    //        // Present an error message to the user
+    //
+    //    }
+    //
+    //    func sessionWasInterrupted(_ session: ARSession) {
+    //        // Inform the user that the session has been interrupted, for example, by presenting an overlay
+    //
+    //    }
+    //
+    //    func sessionInterruptionEnded(_ session: ARSession) {
+    //        // Reset tracking and/or remove existing anchors if consistent tracking is required
+    //
+    //    }
 }

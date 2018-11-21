@@ -19,6 +19,7 @@
 		CBCF5DF621A5B0830043D2A5 /* PlacingVirtualObjectsOnPlaneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCF5DF521A5B0830043D2A5 /* PlacingVirtualObjectsOnPlaneViewController.swift */; };
 		CBCF5DFC21A5BFB10043D2A5 /* EnablingPhysicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCF5DFB21A5BFB10043D2A5 /* EnablingPhysicsViewController.swift */; };
 		CBCF5DFF21A5C9600043D2A5 /* EnablingPhysicsAndCollisionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCF5DFE21A5C9600043D2A5 /* EnablingPhysicsAndCollisionViewController.swift */; };
+		CBCF5E0221A5CFDB0043D2A5 /* ApplyingForcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCF5E0121A5CFDB0043D2A5 /* ApplyingForcesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		CBCF5DF521A5B0830043D2A5 /* PlacingVirtualObjectsOnPlaneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacingVirtualObjectsOnPlaneViewController.swift; sourceTree = "<group>"; };
 		CBCF5DFB21A5BFB10043D2A5 /* EnablingPhysicsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnablingPhysicsViewController.swift; sourceTree = "<group>"; };
 		CBCF5DFE21A5C9600043D2A5 /* EnablingPhysicsAndCollisionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnablingPhysicsAndCollisionViewController.swift; sourceTree = "<group>"; };
+		CBCF5E0121A5CFDB0043D2A5 /* ApplyingForcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplyingForcesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				CBCF5DDF21A59FA90043D2A5 /* Assets.xcassets */,
 				CBCF5DFA21A5BF8B0043D2A5 /* 4. EnablingPhysics */,
 				CBCF5DFD21A5C7310043D2A5 /* 5. EnablingPhysicsAndCollision */,
+				CBCF5E0021A5CFB50043D2A5 /* 6. ApplyingForces */,
 				CBCF5DD821A59FA80043D2A5 /* art.scnassets */,
 				CBCF5DD621A59FA80043D2A5 /* AppDelegate.swift */,
 				CBCF5DE421A59FA90043D2A5 /* Info.plist */,
@@ -131,6 +134,15 @@
 				CBCF5DFE21A5C9600043D2A5 /* EnablingPhysicsAndCollisionViewController.swift */,
 			);
 			path = "5. EnablingPhysicsAndCollision";
+			sourceTree = "<group>";
+		};
+		CBCF5E0021A5CFB50043D2A5 /* 6. ApplyingForces */ = {
+			isa = PBXGroup;
+			children = (
+				CBCF5E0121A5CFDB0043D2A5 /* ApplyingForcesViewController.swift */,
+			);
+			name = "6. ApplyingForces";
+			path = "6. 메ㅔㅣㅛㅑㅜㅎ랙ㅊㄷㄴ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,6 +220,7 @@
 			files = (
 				CBCF5DED21A5A7A10043D2A5 /* OverlayingPlaneViewController.swift in Sources */,
 				CBCF5DF621A5B0830043D2A5 /* PlacingVirtualObjectsOnPlaneViewController.swift in Sources */,
+				CBCF5E0221A5CFDB0043D2A5 /* ApplyingForcesViewController.swift in Sources */,
 				CBCF5DDB21A59FA80043D2A5 /* ViewController.swift in Sources */,
 				CBCF5DFF21A5C9600043D2A5 /* EnablingPhysicsAndCollisionViewController.swift in Sources */,
 				CBCF5DD721A59FA80043D2A5 /* AppDelegate.swift in Sources */,

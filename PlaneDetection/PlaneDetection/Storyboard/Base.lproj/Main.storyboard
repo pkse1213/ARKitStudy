@@ -39,10 +39,10 @@
             </objects>
             <point key="canvasLocation" x="161" y="134"/>
         </scene>
-        <!--Enabling Physics And Collision View Controller-->
+        <!--Applying Forces View Controller-->
         <scene sceneID="HG9-Zv-yJP">
             <objects>
-                <viewController id="kgw-ZV-aRn" customClass="EnablingPhysicsAndCollisionViewController" customModule="PlaneDetection" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="kgw-ZV-aRn" customClass="ApplyingForcesViewController" customModule="PlaneDetection" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dfh-kb-mar">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

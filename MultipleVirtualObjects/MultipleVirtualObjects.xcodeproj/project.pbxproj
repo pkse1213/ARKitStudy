@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CBCF5DF921A5B90D0043D2A5 /* wood.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CBCF5DF821A5B90D0043D2A5 /* wood.jpeg */; };
 		CBE7A8D821A4899300FD563A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE7A8D721A4899300FD563A /* AppDelegate.swift */; };
 		CBE7A8DA21A4899300FD563A /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = CBE7A8D921A4899300FD563A /* art.scnassets */; };
 		CBE7A8DC21A4899300FD563A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE7A8DB21A4899300FD563A /* ViewController.swift */; };
@@ -14,10 +15,10 @@
 		CBE7A8E121A4899400FD563A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBE7A8E021A4899400FD563A /* Assets.xcassets */; };
 		CBE7A8E421A4899400FD563A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBE7A8E221A4899400FD563A /* LaunchScreen.storyboard */; };
 		CBE7A8ED21A48BF100FD563A /* earth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBE7A8EB21A48BF100FD563A /* earth.jpg */; };
-		CBE7A8EE21A48BF100FD563A /* wood.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CBE7A8EC21A48BF100FD563A /* wood.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CBCF5DF821A5B90D0043D2A5 /* wood.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wood.jpeg; sourceTree = "<group>"; };
 		CBE7A8D421A4899300FD563A /* MultipleVirtualObjects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultipleVirtualObjects.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBE7A8D721A4899300FD563A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CBE7A8D921A4899300FD563A /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -27,7 +28,6 @@
 		CBE7A8E321A4899400FD563A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CBE7A8E521A4899400FD563A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBE7A8EB21A48BF100FD563A /* earth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = earth.jpg; sourceTree = "<group>"; };
-		CBE7A8EC21A48BF100FD563A /* wood.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wood.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,8 +64,8 @@
 				CBE7A8D921A4899300FD563A /* art.scnassets */,
 				CBE7A8DB21A4899300FD563A /* ViewController.swift */,
 				CBE7A8DD21A4899300FD563A /* Main.storyboard */,
+				CBCF5DF821A5B90D0043D2A5 /* wood.jpeg */,
 				CBE7A8EB21A48BF100FD563A /* earth.jpg */,
-				CBE7A8EC21A48BF100FD563A /* wood.jpeg */,
 				CBE7A8E021A4899400FD563A /* Assets.xcassets */,
 				CBE7A8E221A4899400FD563A /* LaunchScreen.storyboard */,
 				CBE7A8E521A4899400FD563A /* Info.plist */,
@@ -135,7 +135,7 @@
 				CBE7A8ED21A48BF100FD563A /* earth.jpg in Resources */,
 				CBE7A8E421A4899400FD563A /* LaunchScreen.storyboard in Resources */,
 				CBE7A8E121A4899400FD563A /* Assets.xcassets in Resources */,
-				CBE7A8EE21A48BF100FD563A /* wood.jpeg in Resources */,
+				CBCF5DF921A5B90D0043D2A5 /* wood.jpeg in Resources */,
 				CBE7A8DF21A4899300FD563A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

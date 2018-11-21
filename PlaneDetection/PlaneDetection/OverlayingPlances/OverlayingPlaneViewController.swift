@@ -26,6 +26,7 @@ class OverlayingPlaneViewController: UIViewController, ARSCNViewDelegate {
         
         // feture point랑 좌표계를 보여줌
         sceneView.debugOptions = [ARSCNDebugOptions.showFeaturePoints, ARSCNDebugOptions.showWorldOrigin]
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -61,6 +62,7 @@ class OverlayingPlaneViewController: UIViewController, ARSCNViewDelegate {
         if plane == nil {
             return
         }
+        // 만약에 원래 있는 plane이면 확장시켜서 update시키겠다!!
         plane?.update(anchor: anchor as! ARPlaneAnchor)
     }
     

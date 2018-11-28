@@ -51,13 +51,12 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         tvPlane.firstMaterial?.isDoubleSided = true
         
         let tvPlaneNode = SCNNode(geometry: tvPlane)
-        
         var translation = matrix_identity_float4x4
         // 나와 더 멀리
         translation.columns.3.z = -1.0
        
         tvPlaneNode.simdTransform = matrix_multiply(currentFrame.camera.transform, translation)
-        tvPlaneNode.eulerAngles = SCNVector3(Double.pi, 0, 0)
+        tvPlaneNode.eulerAngles = SCNVector3    (Double.pi, 0, 0)
         
         self.sceneView.scene.rootNode.addChildNode(tvPlaneNode)
     }

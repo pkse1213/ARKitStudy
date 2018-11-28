@@ -33,7 +33,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     func renderer(_ renderer: SCNSceneRenderer, didAdd node: SCNNode, for anchor: ARAnchor) {
         
         if anchor is ARImageAnchor {
-            
+            print("찾앗따!!")
             let phoneScene = SCNScene(named: "Phone_01.scn")!
             let phoneNode = phoneScene.rootNode.childNode(withName: "parentNode", recursively: true)!
             

@@ -5,7 +5,13 @@
   },
   "resources" : [
     {
+      "filename" : "cal.arreferenceimage"
+    },
+    {
       "filename" : "GooglePixel.arreferenceimage"
+    },
+    {
+      "filename" : "PleaseSunshine.arreferenceimage"
     }
   ]
 }

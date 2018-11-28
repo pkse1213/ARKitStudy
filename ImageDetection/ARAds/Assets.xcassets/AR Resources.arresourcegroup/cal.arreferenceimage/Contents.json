@@ -2,7 +2,7 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "GooglePixel.png"
+      "filename" : "cal.jpg"
     }
   ],
   "info" : {
@@ -10,7 +10,6 @@
     "author" : "xcode"
   },
   "properties" : {
-    "width" : 4,
-    "unit" : "centimeters"
+    "width" : 8
   }
 }
